@@ -296,3 +296,4 @@ cell get_extensions() method_id {
     .skip_bits(size::bool + size::seqno + size::wallet_id + size::public_key)
     .preload_dict();
 }
+Approve 
